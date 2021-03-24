@@ -80,7 +80,7 @@ env.render_wrapper.make_gif("gif/Evolution")
 
 # Save the parameters of the best agent
 if save_best_agent:
-    with open('best_agent.dill', 'wb') as fp:
+    with open('agents/best_agent.dill', 'wb') as fp:
         dill.dump(best_agent, fp)
 
 
