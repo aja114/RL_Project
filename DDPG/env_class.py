@@ -9,7 +9,7 @@ class Environment:
         """
         This class implements a wrapper arround the OpenAI Gym Bipedal Walker environment 
         """        
-        self.env = gym.make('Pendulum-v0')
+        self.env = gym.make('BipedalWalker-v3')
         self.state_size = len(self.env.observation_space.sample())
         self.action_size = len(self.env.action_space.sample())
         
